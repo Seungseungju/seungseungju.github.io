@@ -1,0 +1,76 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+
+body{
+    width:500px;
+    height:100px;
+    background-color: powderblue;
+    font-family: "Times New Roman", Times, serif;
+    
+div id{
+    height:70px;
+    }
+    
+header{
+        height:600px;
+        background-image:url(photographer-1245867_1920.jpg);
+        text-align:center;
+        background-size:100% 100%;
+        
+}
+section{
+        font-style:Italic; 
+    }
+    footer{
+        padding:30px;
+        
+    }
+
+#container{
+    width:960px;
+    height:inherit;
+    position:absolute;
+    left:50%;
+    margin-left:100px;
+    margin-right:100px;
+}
+#buttons_nav{
+    margin-top:10px;
+    display:inline;
+
+}
+
+h1{ display:inline;
+    
+}
+h2{
+    margin-top:100px;
+    color:lightblue;
+    font-size:55px;
+    text-align:center;
+    font-family:Noto;
+}
+#header_p{
+    margin-top:100px;
+}
+
+p{
+    font-size:18px;
+    margin-top:20px;
+    width:inherit;
+    text-align:center;
+    color:darkgreen;
+}
+
+#section_p{
+    table-layout: fixed;
+}
+article{
+    width:33%;
+    margin-top:60px;
+    text-align:center;
+    display:inline-table;
+    table-layout: fixed;
+}
+article img{
+    width:100%;
+}
